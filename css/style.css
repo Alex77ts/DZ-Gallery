@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: top;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 18px;
+    color: #161616;
+    background: #E7E7E7;
+    height: 100%;
+}
+
+.header {
+    background: #85D7FF;
+    padding: 25px 0;
+}
+
+.container {
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background:#85D7FF;
+}
+.city {
+    max-width: 600px;
+    outline: 2px solid brown;
+    margin-bottom: 15px;
+    padding: 0 100px;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 60px 0;
+}
+
+.menu {
+    background:burlywood;
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    margin-top: -95px;
+    text-align: center;
+}
+
+.list-menu li:hover {
+    background:#161616;
+}
+
+li {
+    border:1px solid crimson;
+}
+
+.list-menu li > a {
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 30px;
+    display: inline-block;
+}
+.city-image {
+    
+}
+
+.hiden {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 220px;
+    overflow: hidden;
+    text-align: justify;
+    padding: 10px;
+    margin-top: -110px;
+    color: #fff;
+    background: rgba(0, 0, 0, .7)
+}
+.city:hover .hiden {
+    display: block;
+}
+
+
+.footer {
+    background: #85D7FF;
+    padding: 25px 0;
+} 
+
+
+/*
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 18px;
+    color: #161616;
+    background: #E7E7E7;
+    height: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.header {
+    background: #85D7FF;
+    padding: 25px 0;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header a {
+    color:#161616;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.header-logo {
+    text-transform: uppercase;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-list li a.active {
+    color: #EC5E0F;
+}
+*/
+
+/* cards */
+/*
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 60px 0;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.card {
+    flex: 1 1 30px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.card-image {
+    height: 168px;
+    background: #BCD1FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-image img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card-inner {
+    background: #fff;
+    padding: 15px 25px 25px;
+}
+.card-inner h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.card-top {
+    font-size: 11px;
+    color: #6E798C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 11px;
+}
+
+.card-top p {
+    text-transform: uppercase;
+}
+.card-top p + p {
+    text-transform: lowercase;
+}
+.card-top + div {
+    text-align: right;
+}
+.card-top + div h2,
+.card-top + div p {
+    text-align: left;
+}
+.card-top + div p {
+    margin-bottom: 44px;
+}
+.card-top + div a {
+    color:  #007AE9;
+    font-size: 11px;
+    text-decoration: none;
+}
+.footer {
+    line-height: 30px;
+    background: #85D7FF;
+    text-align: center;
+    padding: 25px 0;
+} 
+*/
